@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-color: #f00303;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #000000;
+    color: rgb(237, 248, 249);
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+nav ul li a {
+    color: #a201ff;
+    text-decoration: none;
+}
+.auth-buttons button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #9200d5;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #8800e2;
+    color: rgb(3, 2, 2);
+}
+.hero button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(8, 7, 7);
+    color: #cd0505;
+    border: none;
+    cursor: pointer;
+}
+.content {
+    padding: 40px 20px;
+    text-align: center;
+}
+.articles {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.article {
+    background: rgb(120, 0, 153);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(249, 249, 249, 0.1);
+    width: 400px;
+}
+
+.article.no-border {
+    background: none;
+    padding: 50px;
+    box-shadow: none;
+    width: 400px;
+}
+
+.article button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #fefefe;
+    color: rgb(177, 19, 2);
+    border: none;
+    cursor: pointer;
+}
+footer {
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.imagenAside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5rem solid gray;
+    border-radius: 5rem;
+    padding: 2rem;
+    display: block;
+    margin: 0 auto 1rem auto;
+}
+
+.imgAside {
+    width: 100%;
+    border-radius: 50%;
+}
+
+form input, form textarea {
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 1px solid #ea0202;
+    border-radius: 5px;
+}
+
+button {
+    padding: 0.7rem;
+    background-color: gray;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #000000;
+}
+
+.redesSociales a {
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+}
